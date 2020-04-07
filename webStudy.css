@@ -1,0 +1,43 @@
+.topBar{
+   
+}
+.topBar ul li{
+    margin-left: 10px;
+    display: inline-block;
+}
+.topBar ul li a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 13px;
+}
+
+
+.submit{
+  float: right;
+}
+.input_text{
+
+}
+
+.button{
+   
+}
+
+
+.logo{
+    
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.menuBar{
+
+}
+
+.menuBar ul li{
+    tex
+    margin-left: 10px;
+    display: inline-block;
+}
