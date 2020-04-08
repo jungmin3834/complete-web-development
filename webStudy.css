@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .topBar{
-   
+   max-width: 1220px;
+   margin: auto;
 }
 .topBar ul li{
     margin-left: 10px;
@@ -26,18 +31,244 @@
 
 
 .logo{
-    
+    max-width: 1220px;
+    margin: auto;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 
 .menuBar{
-
+    text-align: center;
+    max-width: 1220px;
+   margin: auto;
 }
 
 .menuBar ul li{
-    tex
-    margin-left: 10px;
+    
     display: inline-block;
+}
+.menuBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14PX;
+    margin: 20PX;
+}
+
+
+.slideBar{
+    
+    background: rgb(160, 193, 194);
+    
+}
+.slideBar h1{
+    text-align: center;
+    padding: 150px;
+    text-transform: uppercase;
+}
+
+
+.contactTab{
+    max-width: 1220px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.contants ul li{
+    display: inline-block;
+    border: 1px solid rgb(133, 133, 133);
+    width: 200px;
+    padding: 50px 20px;
+    margin: 5px;
+}
+.contants ul li a{
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+
+}
+
+
+.new-arrivals{
+    text-align: center;
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.new-arrivals h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.productTab{
+    text-align: center;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.productTab ul li{
+   display: inline-block;
+  
+}
+
+.smg45{
+    width: 200px;
+   
+}
+
+.tab1{
+    text-align: center;
+    width: 210px;
+    
+}
+
+.tab2{
+    text-align: center;
+    width: 210px;
+    
+}
+
+
+.review{
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.review h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.reply{
+    text-align: center;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.reply ul li{
+    display: inline-block;
+    padding: 50px 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+.button2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s;
+}
+.button2:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.bottomInfo{
+    max-width: 1220px;
+    margin: auto;
+}
+.bottomInfo ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.number{
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.in{
+    display: inline-block;
+    margin: 10px 10px;
+}
+.customer-center{
+    width: 350px;
+    height: 180px;
+   float: left;
+   text-align: left;
+   margin-right: 10px;
+}
+.customer-center p2{
+    font-size: 10px;
+}
+
+.account-info{
+    width: 200px;
+    height: 180px;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+}
+.account-info p2{
+    font-size: 11px;
+}
+
+.bank{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 5px;
+    border: 1px solid black;
+}
+
+.favorite-menu{
+    width: 200px;
+    height: 180px;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+}
+.favorite-menu p2{
+    font-size: 10px;
+}
+
+
+.return{
+    width: 300px;
+    height: 180px;
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+}
+.return p2{
+    font-size: 10px;
+}
+
+
+
+.btntext{
+    
+    height: 200px;
+    background: rgb(238, 236, 236);
+}
+
+.inner{
+    max-width: 1220px;
+    margin: auto;
+    height: 200px;
+}
+.innertext{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.innertext p1{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.innertext p{
+    font-size: 13px;
+
 }
