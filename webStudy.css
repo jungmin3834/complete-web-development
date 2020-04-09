@@ -65,7 +65,9 @@
 .menuBar{
     text-align: center;
     max-width: 1220px;
-   margin: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menuBar ul li{
@@ -186,24 +188,85 @@
 
 /*----------------------------------contactTab---------------------------*/
 .contactTab{
+
     max-width: 1220px;
     margin: auto;
-    text-align: center;
-    
+    text-align: justify;
+    margin-top: 20px;
+
 }
 
 .contants ul li{
+    
     display: inline-block;
     border: 1px solid rgb(133, 133, 133);
-    width: 200px;
-    padding: 50px 20px;
-    margin: 5px;
+    zoom: 1;
+    width: 260px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 20px;
 }
-.contants ul li a{
-    color: rgb(131, 131, 131);
-    text-decoration: none;
 
+
+.dear{
+   
 }
+.dear p{
+    font-size: 13px;
+    color: rgb(87, 86, 86);
+}
+.dear h1{
+    font-size: 12px;
+}
+
+
+.resister{
+    
+}
+
+.resister p{
+    font-size: 13px;
+    color: rgb(87, 86, 86);
+}
+
+.resister h1{
+    font-size: 12px;
+}
+
+.refurbish{
+    
+}
+
+.refurbish p{
+    font-size: 13px;
+    color: rgb(87, 86, 86);
+}
+
+.refurbish h1{
+    font-size: 12px;
+}
+
+
+.secondhand{
+    
+}
+
+.secondhand p{
+    font-size: 13px;
+    color: rgb(87, 86, 86);
+}
+
+.secondhand h1{
+    font-size: 12px;
+}
+
+.stretch{
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
 
 /*---------------------------------new arrivals------------------------*/
 .new-arrivals{
