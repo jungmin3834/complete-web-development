@@ -1,14 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .topBar{
    max-width: 1220px;
    margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
+
 .topBar ul li{
-    margin-left: 10px;
+    
+    border-left: 1px solid rgb(158, 156, 156);
+    line-height: 10px;
     display: inline-block;
+    padding: 0 20px;
+  
 }
 .topBar ul li a{
     text-decoration: none;
@@ -16,17 +24,31 @@
     
     font-size: 13px;
 }
-
-
-.submit{
-  float: right;
+.topBar ul li:first-child{
+    border-left: none;
 }
-.input_text{
+.submit{
+    float: right;
+    margin-right: 5px;
+}
 
+.input_text{
+    border-radius: 5px;
+    background: rgb(219, 219, 219);
+    outline: none;
+    border: 0;
+    padding: 4px;
+    border: 1px solid rgb(158, 157, 157);
 }
 
 .button{
-   
+  padding: 4px;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  border: 1px solid black;
+  background: rgb(219, 219, 219);
+  border: 1px solid rgb(150, 149, 149);
 }
 
 
@@ -56,7 +78,7 @@
     margin: 20PX;
 }
 
-
+/*----------------------------------slidebar---------------------------*/
 .slideBar{
     
     background: rgb(160, 193, 194);
@@ -68,7 +90,7 @@
     text-transform: uppercase;
 }
 
-
+/*----------------------------------contactTab---------------------------*/
 .contactTab{
     max-width: 1220px;
     margin: auto;
@@ -89,7 +111,7 @@
 
 }
 
-
+/*---------------------------------new arrivals------------------------*/
 .new-arrivals{
     text-align: center;
     max-width: 1220px;
@@ -103,7 +125,7 @@
     font-size: 20px;
 }
 
-
+/*---------------------------------productTab------------------------*/
 .productTab{
     text-align: center;
     max-width: 1220px;
@@ -132,7 +154,7 @@
     
 }
 
-
+/*---------------------------------review------------------------*/
 .review{
     max-width: 1220px;
     margin: auto;
@@ -149,6 +171,7 @@
     text-align: center;
     max-width: 1220px;
     margin: auto;
+    border-bottom: 2px solid black;
 }
 
 .reply ul li{
@@ -172,84 +195,104 @@
     background-color: rgb(206, 206, 206);
 }
 
+/*---------------------------------bottomInfo------------------------*/
 .bottomInfo{
     max-width: 1220px;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .bottomInfo ul li{
     display: inline-block;
     text-decoration: none;
     font-size: 13px;
-    margin: 10px;
+    border-left: 1px solid rgb(158, 156, 156);
+    line-height: 10px;
+    padding: 0 20px;
+}
+.bottomInfo ul li:first-child{
+    border-left: none;
 }
 
+
+/*---------------------------------number------------------------*/
 .number{
+    display: flex;
     max-width: 1220px;
     margin: auto;
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 30px;
 }
-.in{
-    display: inline-block;
-    margin: 10px 10px;
-}
-.customer-center{
-    width: 350px;
-    height: 180px;
-   float: left;
-   text-align: left;
-   margin-right: 10px;
-}
-.customer-center p2{
-    font-size: 10px;
+.number ul{
+    margin: auto;
 }
 
-.account-info{
-    width: 200px;
-    height: 180px;
+.number ul li{
+    
+    list-style: none;
+    margin: 10px;
+    height: 110px;
+    border-left: 1px solid rgb(165, 164, 164);
+    padding: 0px 20px;
+    color: rgb(109, 107, 107);
+}
+
+
+.number ul li:first-child{
+    border-left: none;
+}
+
+.CUSTOMER{
     float: left;
-    text-align: left;
-    margin-right: 10px;
+    font-size: 5px;
+    
 }
-.account-info p2{
-    font-size: 11px;
+.CUSTOMER p {
+    font-weight: lighter;
 }
 
-.bank{
-    margin-top: 10px;
+.tel{
+    font-size: 30px;
+}
+
+.ACCOUNT{
+    float: left;
+    font-size: 5px;
+    
+}
+.ACCOUNT p{
+    font-weight: lighter;
+}
+
+.btn12{
+    font-size: 5px;
+    padding: 5px 10px;
     border-radius: 5px;
-    border: none;
-    padding: 5px 5px;
-    border: 1px solid black;
+    outline: none;
+    border: 0;
+    border: 1px solid rgb(100, 99, 99);
 }
 
-.favorite-menu{
-    width: 200px;
-    height: 180px;
+.FAVORITE{
     float: left;
-    text-align: left;
-    margin-right: 10px;
+    font-size: 5px;
 }
-.favorite-menu p2{
-    font-size: 10px;
+.FAVORITE p{
+    font-weight: lighter;
 }
 
-
-.return{
-    width: 300px;
-    height: 180px;
+.RETURN{
     float: left;
-    text-align: left;
-    margin-right: 10px;
+    font-size: 5px;
+    
 }
-.return p2{
-    font-size: 10px;
+.RETURN p{
+    font-weight: lighter;
 }
 
-
+/*---------------------------------btntext------------------------*/
 
 .btntext{
-    
+    color: rgb(100, 99, 99);
     height: 200px;
     background: rgb(238, 236, 236);
 }
