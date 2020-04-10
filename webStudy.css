@@ -65,31 +65,91 @@
     padding-bottom: 50px;
 }
 
+/*----------------menubar------------------------*/
+
+
+.menuBar, .menuBar:before, .menuBar:after{
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
 
 .menuBar{
-    
-    text-align: center;
+    position: relative;
+    z-index: 2;
     max-width: 1220px;
     margin: auto;
-    
+    top: 0;
+    left: 0;
     display: flex;
+    width: 100%;
+}
+.menuBar ul{
+    
+    position: relative;
+    list-style: none;
+    display: inline-table;
 }
 
 .menuBar ul li{
-    margin-left: 50px;
-    height: 50px;
-    display: inline-block;
-    padding-top: 12px;
+
     
-}
-.menuBar ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 14PX;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     
 }
 
+.menuBar ul li:hover{background: rgba(0,0,0,.15);} 
+.menuBar ul li:hover > ul {display: block;}
+.menuBar ul li{
+  float: left;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+
+}
+
+
+.menuBar ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 14PX;
+    display: block;
+    padding: 16px 20px;
+}
+
+.menuBar ul ul{
+   
+    display: none;
+    background: white;
+    position: absolute;
+    top: 100%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+  }
+
+
+.menuBar ul ul li{float: none; position: relative;}
+
+.menuBar ul ul li a{
+    
+    padding:  15px 30px;
+    left: 100%;
+    top: 0;
+  }
+
+
+
+
+
 .mbi{
+    
     border-left: 1px solid rgb(165, 165, 165);
     border-right: 1px solid rgb(165, 165, 165);
     
@@ -106,7 +166,7 @@
 .slideBar {
    max-width: 1220px;
    margin: auto;
-   
+   z-index: 1;
    position: relative;
 }
 .mySlides {
