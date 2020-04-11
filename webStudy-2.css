@@ -76,24 +76,29 @@
     margin: auto;
     text-align: center;
     color: rgb(47, 81, 83);
+    margin-bottom: 50px;
 }
 .product-text p{
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .new-arrivals{
     max-width: 1100px;
     margin: auto;
     color: rgb(47, 81, 83);
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.new-arrivals h1{
+    margin-bottom: 20px;
 }
 
 .new-arrivalsImg{
     max-width: 1100px;
     margin: auto;
-    
 }
+
 .new-arrivalsImg ul{
     
     text-align: justify;
@@ -105,6 +110,48 @@
     border: 1px solid black;
     background:  rgb(222, 234, 235);
     border-radius: 10px;
+    list-style: none;
+    display: inline-block; 
+    vertical-align: top;
+    
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+
+
+.snsPage{
+    margin-top: 100px;
+}
+
+.snsPage h1{
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.snsPageImg{
+    margin-top: 10px;
+}
+
+.snsPageImg ul{
+    max-width: 1100px;
+    margin: auto;
+    text-align: justify;
+    
+}
+.snsPageImg ul li{
+    width: 260px;
+    height: 290px;
+    border: 1px solid black;
+    
+    
     list-style: none;
     display: inline-block; 
     vertical-align: top;
