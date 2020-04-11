@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+    background-color: rgb(47, 81, 83);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.logo{
+    max-width: 1100px;
+    margin: auto;
+    margin-left: 30px;
+}
+.logo h1{
+    padding: 40px 0px;
+    text-transform: uppercase;
+    color: rgb(47, 81, 83);
+}
+
+.menuBar{
+    max-width: 1100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.menuBar ul{
+    position: relative;
+    display: inline-table;
+    list-style: none;
+    
+}
+.menuBar ul li{
+    float: left;
+}
+
+.menuBar ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+.menuBar ul li a:hover{
+    color: rgb(4, 160, 165);
+}
