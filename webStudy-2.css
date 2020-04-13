@@ -203,3 +203,14 @@
   .button::placeholder{
     padding: 20px 20px ;
   }
+
+.bottomtxt{
+   
+    background-color: #eceaea;
+    padding: 50PX 0PX;
+}
+.bottomtxt P{
+    max-width: 1100PX;
+    margin: auto;
+    color:  rgb(119, 119, 119);
+}
