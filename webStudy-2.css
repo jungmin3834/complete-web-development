@@ -37,14 +37,12 @@ header{
     background: white;
 }
 .menuBar{
-    
-    max-width: 1100px;
-    top: 0;
-    left: 0;
+    background: white;
     width: 100%;
-    margin: auto;
-    display: flex;
-    position: relative;
+    position: absolute;
+    text-align: center;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    
 }
 .menuBar ul{
     position: relative;
@@ -211,9 +209,7 @@ header{
   .Informationback{
       background: white;
   }
-  .Information{
-   
-  }
+  
 
   .Information ul{
     max-width: 1100px;
@@ -252,6 +248,7 @@ header{
     background-color: #eceaea;
     padding: 50PX 0PX;
 }
+
 .bottomtxt P{
     max-width: 1100PX;
     margin: auto;
