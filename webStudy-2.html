@@ -39,10 +39,25 @@
 
             
 
-            <div class="slideBar" >
+            <div class="slideBar-container" >
 
-               <img src="ar15.jpg" class="img">
-                  
+                <div class="mySlides fade">
+                    <img src="ar15.jpg" style="width: 1000px;">
+                </div>
+
+
+                <div class="mySlides fade">
+                    <img src="ar15.jpg" style="width: 1000px;">
+                </div>
+
+
+                <div class="mySlides fade">
+                    <img src="ar15.jpg" style="width: 1000px;">
+                </div>
+
+                
+                <a class="prev" style=" border:1px solid red;" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" style=" border:1px solid red;" onclick="plusSlides(1)">&#10095;</a>  
                 
             </div>
 
@@ -225,11 +240,40 @@
         
               }else{
                 nav.style.position = "absolute";
-                nav.style.top = "165px";
+                nav.style.top = "0px";
                 
               }
             }
         
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+             
+
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+             
+              slides[slideIndex-1].style.display = "block";  
+              
+            }
+            
+            
           </script>
 
 
