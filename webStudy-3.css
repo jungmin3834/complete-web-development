@@ -26,7 +26,7 @@ header{
     vertical-align: middle;
     margin-right: 20px;
     width: 150px;
-    border: 1px solid red;
+    
 }
 
 .toptop a{
@@ -41,29 +41,57 @@ header{
     margin-top: -30px;
     display: block;
     float: right;
-    display: inline-block;
-}
-.btn{
-    margin-right: 20px;
 }
 
+.btn{
+    margin-right: 20px;
+    padding: 3px 10px;
+    background-color: rgb(100, 133, 29);
+    border: none;
+    color: rgb(203, 223, 186);
+    font-size: 12px;
+}
+.btn:hover{
+    color: white;
+}
+
+
 .toptap a{
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .topimgs{
-    
+    max-width: 1100px;
+    background-image: url(gameback.jpg);
+    background-position: center;
+    background-size: cover;
     margin: auto;
-    background: rgb(187, 216, 224);
     height: 400px;
-    display: flex;
-}
-.topimgs h1{
-    color: white;
-    text-transform: uppercase;
-    display: flex;
+    display: flex;  
 }
 
+.toptitle{
+    
+    position: relative;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    text-transform: uppercase;
+    margin-left: 200px;
+    
+}
+.toptitle h1{
+    text-shadow: 0px 2px 5px black;
+}
+.control{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: rgb(148, 197, 243);
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 5px 1px black;
+}
 
 /*-------------------------------------------------------------*/
 
@@ -74,7 +102,7 @@ header{
 .topbtn{
     max-width: 1100px;
     margin: auto;
-    background: #2779a0;
+    background: #277aa0c7;
    margin-top: 100px;
 }
 
@@ -104,7 +132,7 @@ header{
 
 .input_text{
     border-radius: 5px;
-    background: rgb(41, 111, 155);
+    background: rgba(41, 111, 155, 0.829);
     outline: none;
     border: 0;
     padding: 1px;
