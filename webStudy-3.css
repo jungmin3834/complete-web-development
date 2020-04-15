@@ -96,5 +96,41 @@ header{
 
 .slidepage{
     background: rgba(112, 112, 112, 0.753);
-    height: 800px;
+    height: 300px;
+}
+
+
+.sign{
+    text-align: center;
+    display: block;
+    padding: 50px;
+    background: black;
+}
+.sign h1{
+    color:  #2779a0;
+    margin-bottom: 20px;
+}
+.singbtn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    background: rgb(110, 143, 60);
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    color: rgb(214, 231, 187);
+    text-transform: uppercase;
+}
+.singbtn:hover{
+    background: rgb(134, 172, 60);
+    color: white;
+}
+
+.sign p1,p2{
+    color: rgb(163, 163, 163);
+}
+
+.singup{
+    color: white;
+    font-weight: bold;
 }
