@@ -131,18 +131,22 @@ header{
     border-right:1px solid black;
 }
 .end{
-    margin-left: 170px;
+    margin-left: 160px;
 }
 
 
 
 .input_text{
     border-radius: 5px;
-    background: rgba(41, 111, 155, 0.829);
+    background: rgba(30, 68, 92, 0.829);
     outline: none;
     border: 0;
-    padding: 1px;
-    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    border: 2px solid rgb(67, 85, 99);
+    
+}
+.input_text:hover{
+    border: 2px solid rgb(32, 168, 221);
 }
 
 .button{
@@ -159,13 +163,13 @@ header{
 .slidepage{
     max-width: 1100px;
     margin: auto;
-    height: 500px;
+    height: 450px;
    
 }
 .slidepage p {
     margin-left: 10px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -201,6 +205,19 @@ header{
     
     display: flex;
     font-size: 30px;
+}
+.screenshots{
+    
+    height: 170px;
+   
+}
+.screenshots > div{
+    margin-right: 13px;
+    margin-top: 13px;
+    height: 69px;
+    width: 156px;
+    display: inline-block;
+    background-size: cover;
 }
 
 .arrow-left{
@@ -271,8 +288,7 @@ header{
     display: block;
 }
 
-
-
+/*-------------------------------------------------------------------*/
 
 .backcolor{
     background:-webkit-linear-gradient(left, 
@@ -282,17 +298,18 @@ header{
 .slidepage2{
     max-width: 1100px;
     margin: auto;
-    height: 600px;
-   
+    height: 500px;
+    
 }
 .slidepage2 p {
     
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px;
     padding-top: 20px;
     margin-bottom: 10px;
 }
+
 .text1{
     margin-bottom: 20px;
 }
@@ -306,15 +323,21 @@ header{
     
 }
 
+.slideimg2{
+    background-size: cover;
+    background-image: url(11.jpg);
+    box-shadow: 0 0 10px 5px #000;
+    height: 350px;
+     width: 750px;
+     margin-right: 10px;
+}
 
-/*----------------------------------------*/
-
-.screenshots{
+.screenshots2{
     
     height: 170px;
    
 }
-.screenshots > div{
+.screenshots2 > div{
     margin-right: 13px;
     margin-top: 13px;
     height: 69px;
@@ -322,10 +345,7 @@ header{
     display: inline-block;
     background-size: cover;
 }
-.imgmin{
-   
-    
-}
+
 .reason{
     color: white;
     font-size: 25px;
@@ -358,6 +378,105 @@ header{
 .thumbs > div:hover{
     background-color: white;
 }
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+.backcolor{
+    background:-webkit-linear-gradient(left, 
+    rgba(3, 3, 3, 0.616)5%,rgb(33, 46, 80)95%);
+}
+
+.slidepage3{
+    max-width: 1100px;
+    margin: auto;
+    height: 600px;
+    
+}
+.slidepage3 p {
+    
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text1{
+    margin-bottom: 20px;
+}
+.text1 p{
+    font-size: 30px;
+    margin-bottom: -7px;
+    color: rgb(94, 150, 214);
+}
+.text1 p2{
+    color: rgb(94, 150, 214);
+    
+}
+
+.slideimg3{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(unnamed.jpg);
+    box-shadow: 0 0 10px 5px #000;
+    height: 350px;
+     width: 750px;
+     margin-right: 10px;
+}
+
+.screenshots3{
+    
+    height: 170px;
+   
+}
+.screenshots3 > div{
+    margin-right: 13px;
+    margin-top: 13px;
+    height: 69px;
+    width: 156px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.reason{
+    color: white;
+    font-size: 25px;
+}
+.button2{
+    padding: 5px 10px;
+    background: rgb(129, 129, 129);
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.thumbs{
+    text-align: center;
+    
+}
+.thumbs > div{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(173, 173, 173);
+    height: 10px;
+    width: 20px;
+    margin-top: 20px;
+}
+.thumbs > div:hover{
+    background-color: white;
+}
+
+/*--------------------------------------------------------------------------*/
 
 
 .sign{
