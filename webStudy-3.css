@@ -103,10 +103,11 @@ header{
 
 
 .topbtn{
-    max-width: 1100px;
+    width: 1000px;
     margin: auto;
     background: #277aa0c7;
-   margin-top: 100px;
+    margin-top: 100px;
+    
 }
 
 .topbtn ul{
@@ -129,7 +130,9 @@ header{
     padding-right: 25px;
     border-right:1px solid black;
 }
-
+.end{
+    margin-left: 170px;
+}
 
 
 
@@ -151,10 +154,11 @@ header{
 
 /*------------------------------------------*/
 
+
+
 .slidepage{
     max-width: 1100px;
     margin: auto;
-    
     height: 500px;
    
 }
@@ -163,31 +167,84 @@ header{
     color: white;
     font-size: 15px;
     letter-spacing: 2px;
-}
-.slideimg{
-    height: 400px;
-    background: rgb(255, 255, 255);
-    width: 700px;
-    float: left;
-    
-}
-.str{
-    height: 400px;
-    width: 400px;
-    background: rgb(13, 120, 207);
-    
-    float: left;
-}
-.slidebtn{
-    text-align: center;
-    margin-top: 20px;
-}
-.slidebtn a{
-    border: 1px solid red;
-    padding: 1px 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.pagebox{
+    width: 1100px;
+    height: 350px;
+    box-shadow: 0 0 7px 0px #000;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+.slideimg{
+    box-shadow: 0 0 10px 5px #000;
+    background: rgb(252, 252, 252);
+    height: 350px;
+     width: 750px;
+     margin-right: 10px;
+}
+.str{
+    
+    height: 350px;
+    width: 350px;
+}
+.app-name{
+    color: white;
+    height: 80px;
+    align-items: center;
+    border: 1px solid red;
+    display: flex;
+    font-size: 30px;
+}
+.screenshots{
+    border: 1px solid red;
+    height: 170px;
+}
+.screenshots > div{
+    margin-right: 13px;
+    margin-top: 13px;
+    background: white;
+    height: 69px;
+    width: 156px;
+    display: inline-block;
+}
+.reason{
+    color: white;
+    font-size: 25px;
+}
+.button2{
+    padding: 5px 10px;
+    background: rgb(129, 129, 129);
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.thumbs{
+    text-align: center;
+    
+}
+.thumbs > div{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(173, 173, 173);
+    height: 10px;
+    width: 20px;
+    margin-top: 20px;
+}
+.thumbs > div:hover{
+    background-color: white;
+}
 
 
 .sign{
