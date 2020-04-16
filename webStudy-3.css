@@ -445,6 +445,57 @@ header{
     rgb(88, 101, 126)80%);
     border-radius: 10px;
 }
+.str2text{
+    margin: auto;
+    width: 300px;
+    
+}
+.readmore{
+    
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(207, 207, 207);
+}
+.readmore:hover{
+    color: white;
+}
+.arrowbar{
+    margin-top: 10px;
+    
+    width: 350px;
+    height: 130px;
+    text-align: center;
+}
+.arrowbar p{
+    margin-top: 70px;
+    color: #56d7ff;
+}
+
+.btn-1{
+    margin-right: 40px;
+    padding: 5px 13px;
+    background: rgb(72, 101, 124);
+    border: none;
+    border-radius: 4px;
+    color: #56d7ff;
+    font-size: 20px;
+}
+
+.btn-2{
+    margin-left: 40px;
+    padding: 5px 13px;
+    background: rgb(72, 93, 124);
+    border: none;
+    border-radius: 4px;
+    color: #56d7ff;
+    font-size: 20px;
+}
+
+
+.lefta,.rightb{
+
+}
+
 
 .thumbs{
     text-align: center;
