@@ -157,7 +157,7 @@ header{
 
 
 .slidepage{
-    max-width: 1100px;
+    
     margin: auto;
     height: 500px;
    
@@ -177,7 +177,7 @@ header{
     box-shadow: 0 0 7px 0px #000;
     display: flex;
     margin: auto;
-    
+    position: relative;
 }
 
 
@@ -191,7 +191,6 @@ header{
      margin-right: 10px;
 }
 .str{
-    
     height: 350px;
     width: 350px;
 }
@@ -203,6 +202,39 @@ header{
     display: flex;
     font-size: 30px;
 }
+
+.arrow-right{
+    background-attachment: scroll;
+    background-size: auto;
+    display: block;
+    position: absolute;
+    background-origin: padding-box;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, 
+    rgba(0,0,0,0)5%,rgba(0,0,0,0.3)95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    right: -45px;
+    top: 122px;
+}
+.arrow-right:hover {
+    background: -webkit-linear-gradient(left, 
+    rgba(0, 0, 0, 0)5%,rgb(95, 161, 192)95%);
+}
+
+.arrow-right > div {
+    background-image: url(arrow.png);
+    width: 20px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
 .screenshots{
     
     height: 170px;
