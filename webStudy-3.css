@@ -182,8 +182,10 @@ header{
 
 
 .slideimg{
+    background-size: cover;
+    background-image: url(JdaFGshnYn28Lsoxvewwhb.jpg);
     box-shadow: 0 0 10px 5px #000;
-    background: rgb(252, 252, 252);
+    
     height: 350px;
      width: 750px;
      margin-right: 10px;
@@ -197,21 +199,26 @@ header{
     color: white;
     height: 80px;
     align-items: center;
-    border: 1px solid red;
+    
     display: flex;
     font-size: 30px;
 }
 .screenshots{
-    border: 1px solid red;
+    
     height: 170px;
+   
 }
 .screenshots > div{
     margin-right: 13px;
     margin-top: 13px;
-    background: white;
     height: 69px;
     width: 156px;
     display: inline-block;
+    background-size: cover;
+}
+.imgmin{
+   
+    
 }
 .reason{
     color: white;
