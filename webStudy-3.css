@@ -11,34 +11,51 @@ header{
 }
 .topback{
     
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.493);
 }
 
 .toptop{
     max-width: 1000px;
     margin: auto;
     line-height: 100px;
-   
+    height: 100px;
+}
+.toptop ul{
+    list-style-type: none;
 }
 
+.toptop ul li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+    line-height: 100px;
+    text-align: center;
+}
+.toptop ul li a{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.toptop ul li a:hover{
+    color: white;
+    
+}
 .img{
-    vertical-align: middle;
+    margin-top: 27px;
     margin-right: 20px;
     width: 150px;
+    float: left;
     
 }
 
-.toptop a{
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    text-transform: uppercase;
-    
-}
+
+
 
 .toptap{
     margin-top: -30px;
-    display: block;
+    color: white;
     float: right;
 }
 
@@ -55,9 +72,15 @@ header{
 }
 
 
-.toptap a{
+.toptap {
+    
     font-size: 11px;
+    color: rgb(153, 153, 153);
 }
+.toptap a:hover{
+    color: white;
+}
+
 
 .topimgs{
     
@@ -110,52 +133,79 @@ header{
     
 }
 
-.topbtn ul{
-    position: relative;
+.topbtn ul li{
+    float: left;
+    list-style: none;
+    width: 100px;
+    line-height: 35px;
 }
 
-.topbtn ul li{
-    display: inline-block;
-    padding: 0 10px;
-    line-height: 40px;
-}
-.topbtn ul li:first-child{
-    margin-left: 30px;
-}
 
 .topbtn ul li a{
     color: white;
     text-decoration: none;
     font-size: 12px;
-    padding-right: 25px;
-    border-right:1px solid black;
-}
-.end{
-    margin-left: 160px;
-}
-
-
-
-.input_text{
-    border-radius: 5px;
-    background: rgba(30, 68, 92, 0.829);
-    outline: none;
-    border: 0;
-    padding-left: 10px;
-    border: 2px solid rgb(67, 85, 99);
+    text-decoration: none;
     
+    display: block;
+    text-align: center;
 }
-.input_text:hover{
-    border: 2px solid rgb(32, 168, 221);
+.c1{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
+}
+.c2{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
+}
+.c3{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
+}
+.c4{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
+}
+.c5{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
+}
+.c6{
+    border-right: 1px solid rgba(0, 0, 0, 0.39) ;
 }
 
-.button{
+
+.textback{
+    background-color: rgba(34, 65, 90, 0.541);
+    width: 200px;
+    height: 29px;
+    margin-top: 3px;
+    margin-left: 195px;
+    border-radius: 3px;
+    border: 2px solid rgb(27, 76, 109);
+}
+
+.submitbox{
+    width: 160px;
+    vertical-align: middle;
+    margin-bottom: 9px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.textback:hover{
+    border: 2px solid   #5294b3;
+}
+
+.sc{
     width: 25px;
-    position: relative;
-    top: 6px;
-  }
+    border-radius: 2px;
+    background-color:#358fb9c7;
+    padding: 4px 4px;
+    
+    
+    float: right;
+}
 
-
+.sc:hover{
+    background-color: #5294b3;
+}
 /*------------------------------------------*/
 
 
