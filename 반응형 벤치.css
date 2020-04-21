@@ -388,13 +388,39 @@ h1{
 .footer4{
     max-width: 800px;
     margin: auto;
-   
+    display: flex;
+    
 }
+
 .qbox{
     margin: auto;
-    height: 150px;
+    height: 120px;
     width: 600px;
-    border: 1px solid rgb(151, 151, 151);
+    border: 1px solid rgb(189, 188, 188);
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.ionbox,.textpage,.btn4{
+    margin: auto;
+}
+
+.ionbox{
+    font-size: 50px;
+    color: rgb(142, 218, 253);
+}
+.textpage{
+    text-align: left;
+    color: rgb(104, 104, 104);
+}
+.button4{
+    padding: 10px 10px;
+    border: 2px solid rgb(248, 104, 104);
+    border-radius: 7px;
+    background: none;
+    color: rgb(248, 104, 104);
+    font-weight: bold;
 }
