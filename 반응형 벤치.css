@@ -9,32 +9,33 @@ body{
 
 
 .header{
-    background: linear-gradient(to top, rgb(0, 110, 255)0%,rgb(99, 78, 218) );
+    background: linear-gradient(5deg, white 15%, rgb(0, 110, 255)50%,rgb(132, 0, 255) );
     height: 100vh;
-    
-}
-.row{
-    background: rgb(81, 81, 97);
-    height: 100vh;
-    
 }
 
+
 .Hcontainer{
-    max-width: 1100px;
+    width: 100%;
     margin: auto;
+    
+    background: white;
 }
 
 .topbanner{
-    
-    position: relative;
+    position: absolute;
+    width: 100%;
     height: 60px;
     top: 2vh;
     
 }
-
+.lound{
+    max-width: 1100px;
+    margin: auto;
+}
 
 .topbanner ul{
     float: right;
+    
 }
 
 .topbanner ul li{
@@ -50,6 +51,8 @@ body{
     font-weight: bold;
     font-size: 13px;
 }
+
+
 
 .logo{
     color: white;
@@ -106,4 +109,66 @@ h1{
 .button1:hover{
     background: rgb(240, 59, 59);
     box-shadow: 0px 3px 0px 0px rgb(253, 0, 0);
+}
+
+.row{
+    background: white;
+    height: 100vh;
+    
+}
+
+.rowwidth{
+    max-width: 1100px;
+    height: 100vh;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.stuck.lound{
+    max-width: 1100px;
+    margin: auto;
+     
+}
+ 
+.stuck{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 2vh;
+    z-index: 999;
+    
+    background: rgba(255, 255, 255, 0.918);
+}
+
+.stuck ul{
+    float: right;
+    
+}
+
+.stuck ul li{
+    display: inline-block;
+    line-height: 60px;
+}
+
+.stuck ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.stuck .logo{
+    color: black;
+}
+.stuck .button0{
+    background: none;
+    border: 3px solid rgb(248, 78, 78);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    color: rgb(255, 98, 98);
+    font-weight: bold;
+    font-size: 13px;
 }

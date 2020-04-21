@@ -10,18 +10,20 @@
     
     <div class="header">
         <div class="Hcontainer">
-
             <div class="topbanner">
-            
-                <label class="logo">SHAWN</label>
-                <ul>
-                       <li><a href="#">WHAT WE DO</a></li>
-                    <li><a href="#">TEAM</a></li>
-                    <li><a href="#">CASE STUDIES</a></li>
-                    <li><a href="#">RESOURCES</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <button class="button0">GET PROPOSAL</button>
-                </ul>
+                <div id="nav" class=""> 
+                    <div class="lound">
+                        <label class="logo">SHAWN</label>
+                        <ul>
+                            <li><a href="#">WHAT WE DO</a></li>
+                            <li><a href="#">TEAM</a></li>
+                            <li><a href="#">CASE STUDIES</a></li>
+                            <li><a href="#">RESOURCES</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <button class="button0">GET PROPOSAL</button>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
         <div class="mainbanner">
@@ -33,13 +35,36 @@
     </div>
 
     <div class="row">
+        <div class="rowwidth">
 
+        </div>
     </div>
 
     <div class="footer">
 
     </div>
-
     
+
+    <script type="text/javascript">
+
+        document.getEleme
+        var nav = document.getElementById('nav');
+       
+          window.onscroll = function() {
+          if(window.pageYOffset > 100){
+            nav.style.position = "fixed";
+            nav.style.top = 0;
+            nav.className = 'stuck';
+            
+          }else{
+            nav.style.position = "";
+            nav.style.top = "17px";
+            nav.className = '';
+          }
+        }
+        
+
+
+    </script>
 </body>
 </html>
