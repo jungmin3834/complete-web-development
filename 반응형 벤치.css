@@ -207,11 +207,29 @@ h1{
   }
 
   .back1{
-      background: royalblue;
+      background-image: url(JobInterview.jpg);
+      background-size: cover;
       width: 340px;
       height: 200px;
       border-radius: 10px;
   }
+  .back2{
+    background-image: url(prepare-job-interview-1068x713.jpg);
+    background-size: cover;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+}
+.back3{
+    background-image: url(960x0.jpg);
+    background-size: cover;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
 
   .boxtext{
       font-weight: bold;
