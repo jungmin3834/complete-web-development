@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-}
+
 
 
 .header{
@@ -117,6 +115,7 @@ body{
 .stuck .logo{
     color: black;
 }
+
 .stuck .button0{
     background: none;
     border: 3px solid rgb(248, 78, 78);
@@ -160,14 +159,14 @@ h1{
 }
 
 .row{
-    background: white;
     
     text-align: center;
+    
 }
 
 .rowwidth{
     max-width: 1100px;
-    height: 50%;
+    
     
     margin: auto;
     
@@ -256,7 +255,6 @@ h1{
    
     margin: auto;
     max-width: 1100px;
-    height: 50%;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 50px;
@@ -292,4 +290,111 @@ h1{
 .face h1{
     margin-bottom: -1px;
     font-size: 25px;
+}
+
+
+
+.footer1{
+    background: rgb(35, 57, 97);
+    height: 900px;
+    display: block;
+   
+}
+.footerpage{
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.footerpage h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.textbox{
+    background-image: url(free-proposal-graphic-desktop.png);
+    background-size: cover;
+    width: 900px;
+    height: 200px;
+    margin: auto;
+}
+
+.button3{
+    margin-top: 50px;
+    padding: 20px 30px;
+    background: rgb(231, 88, 88);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px rgb(196, 65, 65);
+}
+
+.footer2{
+    background: white;
+    height: 250px;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;   
+}
+.agency{
+    margin-bottom: 20px;
+}
+.footersection{
+    margin-right: 20px;
+    margin: auto;
+    
+    display: block;
+}
+.footersection ul{
+    list-style: none;
+}
+.footersection ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+}
+
+.footerlogo{
+  
+    margin: auto;
+}
+.footerlogo h1{
+    margin-bottom: 120px;
+}
+
+.footer3{
+    
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.footer3 h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer3 a{
+    color: cornflowerblue;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.footer4{
+    max-width: 800px;
+    margin: auto;
+   
+}
+.qbox{
+    margin: auto;
+    height: 150px;
+    width: 600px;
+    border: 1px solid rgb(151, 151, 151);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
