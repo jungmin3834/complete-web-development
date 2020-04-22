@@ -398,7 +398,7 @@ h1{
     width: 600px;
     border: 1px solid rgb(189, 188, 188);
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: center;
     display: flex;
     
@@ -423,4 +423,58 @@ h1{
     background: none;
     color: rgb(248, 104, 104);
     font-weight: bold;
+}
+
+.footer5{
+    width: 600px;
+    height: 250px;
+    
+    margin: auto;
+    text-align: center;
+}
+.footer5 h4{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+}
+.midclass{
+    width: 400px;
+    height: 60px;
+    margin: auto;
+   
+}
+
+span{
+    font-size: 45px;
+    margin: auto;
+  
+}
+span i{
+   margin: 20px;
+    display: block;
+   line-height: 70px;
+   margin-top: 20px;
+   color: rgb(142, 218, 253);
+}
+
+.imgline{
+    display: flex;
+    margin-top: 50px;
+}
+img{
+    -webkit-filter: grayscale(100%);
+    width: 180px;
+    margin: auto;
+    height: 70px;
+    cursor: pointer;
+}
+img:hover{
+    -webkit-filter: grayscale(0%);
+}
+.btntext{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btntext a:hover{
+    color: rgb(94, 185, 228);
 }
