@@ -139,6 +139,9 @@
     margin-top: 5px;
 }
 
+#check{
+    display: none;
+}
 
 .mainbanner{
     text-align: center;
@@ -501,49 +504,83 @@ img:hover{
     nav ul li a{
         font-size: 16px;
     }
-}
     #check{
         display: none;
     }
-@media(max-width: 858px){
-    *{
-        margin: 0;
-        padding: 0;
     }
-    .checkbtn{
+@media(max-width: 858px){
+    
+  
+
+    .topbanner ul{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #0e223f;
+        top: 80px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 999;
+
+    }
+    .button0{
+        border: 3px solid rgb(248, 78, 78);
+        color: rgb(255, 98, 98);
+    }
+
+    .topbanner ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .topbanner ul li a{
+        font-size: 20px;color: white;
+    }
+    .topbanner a:hover,.topbanner a.active{
+        background: none;
+        color: #0082e6;
+    }
+
+    .topbanner ul{
         display: block;
     }
 
-.topbanner ul{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background: #0e223f;
-    top: 80px;
-    right: -100%;
-    text-align: center;
-    transition: all .5s;
-    z-index: 999;
-    
-}
-.button0{
-    border: 3px solid rgb(248, 78, 78);
-    color: rgb(255, 98, 98);
-}
+    .topbanner i{
+       display: block;
+    }
 
 
+    .stuck i{
+        color: black;
+    }
 
+    .stuck i{
+        color: black;
+        display: block;
+    }
 
-.topbanner ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-}
-.topbanner ul li a{
-    font-size: 20px;color: white;
-}
-.topbanner a:hover,.topbanner a.active{
-    background: none;
-    color: #0082e6;
-}
-}
+     ul{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        }
+    ul li{
+
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    li a{
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    }
