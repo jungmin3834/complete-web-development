@@ -1,10 +1,11 @@
 import React from 'react';
-import ImageMap from './imageMap';
 import './css/style.css';
+import InputFrame from './InputFrame';
+import ImageMap from './imageMap';
 
 const TodoListTemplate = ({form, children}) => {
   return (
-<div>
+    <div>
     <div>
           <span>SHAWN</span>
             <ul id="gnb">
@@ -33,87 +34,7 @@ const TodoListTemplate = ({form, children}) => {
     </div>
      <div className="Mbox">
           <div className="Numbox">
-                <div className="t1">
-                    <p>You're sending exactly</p>
-                    <h1>1,000</h1>
-                </div>
-                <div className="b1">
-                    <img alt=""  src={ImageMap.en}/>
-                    <span>GDP</span>
-                    <i className="fas fa-chevron-down"></i>
-                    <ul>
-                        <li>
-                            <img alt=""  src={ImageMap.US}/>
-                            <span>USD</span>
-                        </li>
-                        <li>
-                            <img alt=""  src={ImageMap.kr}/>
-                            <span>KRW</span>                          
-                        </li>
-                        <li>
-                            <img alt=""  src={ImageMap.en}/>
-                            <span>GDP</span>                          
-                        </li>
-                        <li>
-                            <img alt=""  src={ImageMap.ca}/>
-                            <span>CAD</span>                          
-                        </li>
-                        <li>
-                            <img alt=""  src={ImageMap.TW}/>
-                            <span>TWD</span>                           
-                        </li>
-                        <li>
-                            <img alt=""  src={ImageMap.hk}/>
-                            <span>HKD</span>                       
-                        </li>
-                    </ul>
-                </div>
-                <div className="t2">
-                    <p>Recipient gets</p>
-                    <h1>1,979</h1> <i className="fas fa-unlock"></i>
-                </div>
-                <div className="b2">
-                    <img alt=""  src={ImageMap.ca}/>
-                    <span>CAD</span>
-                    <i className="fas fa-chevron-down"></i>
-
-                    <ul>
-                        <li>
-                            <img alt=""  src={ImageMap.US}/>
-                            <span>USD</span>
-                            
-                        </li>
-
-                        <li>
-                            <img alt=""  src={ImageMap.kr}/>
-                            <span>KRW</span>                          
-                        </li>
-
-                        <li>
-                            <img alt=""  src={ImageMap.en}/>
-                            <span>GDP</span>                          
-                        </li>
-
-                        <li>
-                            <img alt=""  src={ImageMap.ca}/>
-                            <span>CAD</span>                          
-                        </li>
-
-                        <li>
-                            <img alt=""  src={ImageMap.TW}/>
-                            <span>TWD</span>                           
-                        </li>
-
-                        <li>
-                            <img alt=""  src={ImageMap.hk}/>
-                            <span>HKD</span>                       
-                        </li>
-
-                        
-                    </ul>
-
-
-                </div>
+            <InputFrame></InputFrame>
             </div>
             <p>Real exchange rate: <b>1.9889</b> Fee: <b>£ 4.98</b></p>
             <p>you re saving <b>£ 44.50</b></p>
@@ -151,7 +72,8 @@ const TodoListTemplate = ({form, children}) => {
       </div>
 
     </div>
-  );
+
+);
 };
 
 export default TodoListTemplate;
